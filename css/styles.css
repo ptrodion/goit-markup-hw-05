@@ -516,8 +516,8 @@ body {
 }
 
 .project-list-item {
-  width: 360px;
-  /* width: calc((100%-48px) / 3); */
+  /* width: 360px; */
+  width: calc((100% - 48px) / 3);
 }
 
 .project-list-item:is(:hover, :focus) .project-overlay-text {
